@@ -5,7 +5,7 @@ from app.schemas.response import ChatReplyResponseSchema
 from app.services.chat import reply as chat_reply
 
 router = APIRouter(
-    prefix="smart-genie-rs/v1/chats",
+    prefix="/smart-genie-rs/v1/chats",
     tags=["chats"]
 )
 
